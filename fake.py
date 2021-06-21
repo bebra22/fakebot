@@ -112,7 +112,7 @@ def contact(message):
 		phone = message.contact.phone_number
 		info = f'''
 			Данные
-			├Имя: {first} {last}
+			├
 			├ID: {userid}
 			├Ник: @{nick}
 			└Номер телефона: {phone}
