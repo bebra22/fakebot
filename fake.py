@@ -106,8 +106,7 @@ def proc2(message):
 def contact(message):
 	if message.contact is not None: 
 		nick = message.from_user.username
-		first = message.contact.first_name
-		last = message.contact.last_name
+		
 		userid = message.contact.user_id
 		phone = message.contact.phone_number
 		info = f'''
